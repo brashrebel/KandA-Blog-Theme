@@ -52,6 +52,9 @@ h1.blog-title > a:hover {
 }
 }
 /* Body */
+.big-wrapper {
+    background-color: rgba(255,255,255,0.5);
+}
 .wrapper .post-content a {
 	color: #709277;
 }
@@ -61,6 +64,9 @@ h1.blog-title > a:hover {
 .featured-media {
 	float: left;
 	margin: 0 15px 0 0;
+}
+.post-header .post-title a:hover, .post-meta-bottom .post-categories a, #respond .logged-in-as a {
+    color: #709277;
 }
 /* Footer */
 .footer .footer-inner .column a {
