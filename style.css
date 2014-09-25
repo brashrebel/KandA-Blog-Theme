@@ -1,0 +1,89 @@
+/*
+Theme Name:     CHILDhemingway-kanda
+Description:    Child theme for Kyle and Ashley\'s blog.
+Author:         Kyle
+Template:       hemingway
+*/
+
+@import url("../hemingway/style.css");
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+
+/* Header */
+.section.bg-dark, .toggle-container, .search-toggle .glass {
+	background: #709277;
+}
+.blog-info {
+	background: rgba(0,0,0,0);
+}
+.blog-menu li:hover > a, .blog-search input#searchsubmit {
+	background-color: #7c9e83;
+}
+.blog-title {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2.5em;
+}
+h1.blog-title a {
+	font-weight: normal;
+	text-transform: none;
+	font-size: 2.5em;
+}
+h1.blog-title > a:hover {
+	color: #7c9e83;
+}
+.header.section {
+	padding: 1% 0 4%;
+}
+.blog-description {
+	font-size: 2em;
+	color: rgba(255, 255, 255, 0.9);
+}
+.blog-description:before {
+	height: 0;
+}
+.search-toggle .metal, .search-toggle .handle, .nav-toggle .bar {
+	background: rgba(255, 255, 255, 0.4);
+}
+@media only screen and (max-width: 420px) {
+.blog-title {
+	font-size: 1.5em;
+}
+.blog-description {
+	font-size: 1.5em;
+}
+}
+/* Body */
+.wrapper .post-content a {
+	color: #709277;
+}
+.wrapper .post-content a:hover {
+	color: #3e8f55;
+}
+.featured-media {
+	float: left;
+	margin: 0 15px 0 0;
+}
+/* Footer */
+.footer .footer-inner .column a {
+	color: rgba(255, 255, 255, 0.2);
+}
+.footer .footer-inner .column a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+/* Sidebar */
+#wp-calendar {
+	color: #ccc;
+}
+.wrapper .sidebar .widget a, .widget #wp-calendar a {
+	color: #709277;
+}
+.wrapper .sidebar .widget a:hover, .widget #wp-calendar a:hover {
+	color: #3e8f55;
+}
+.wrapper .sidebar .tagcloud a {
+	background: #709277;
+	color: rgba(255, 255, 255, 0.4);
+}
+.sidebar .widget .tagcloud a:hover {
+	background: #7c9e83;
+	color: rgba(255, 255, 255, 1);
+}
